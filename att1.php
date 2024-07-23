@@ -13,15 +13,16 @@ class Monitor
         print "Monitor ligado\n";
     }
 
+    function mostrarImagem()
+    {
+        print "Monitor mostrando imagem\n";
+    }
+
     function desligar()
     {
         print "Monitor desligado\n";
     }
 
-    function mostrarImagem()
-    {
-        print "Monitor mostrando imagem\n";
-    }
 }
 
 //programa principal
