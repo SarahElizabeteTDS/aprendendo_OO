@@ -15,7 +15,7 @@ class Monitor
 
     function mostrarImagem()
     {
-        print "Monitor mostrando imagem\n";
+        print "Monitor mostrando imagem com a resolução " . $this -> resolucao . "\n"; //$this serve para se referir ao atributo dentro da propria classe
     }
 
     function desligar()
