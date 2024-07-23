@@ -36,3 +36,14 @@ $monitor0 -> marca = "AOC";
 $monitor0->ligar();
 $monitor0->mostrarImagem();
 $monitor0->desligar();
+
+//criei mais um objeto
+$monitor1 = new Monitor(); 
+//defini os atributos do objeto
+$monitor1 -> cor = "azul";
+$monitor1 -> resolucao = "1080x1920";
+$monitor1 -> marca = "LENOVO";
+//chamei os metodos
+$monitor1->ligar();
+$monitor1->mostrarImagem();
+$monitor1->desligar();
