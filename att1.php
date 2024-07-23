@@ -38,6 +38,8 @@ $monitor0->ligar();
 $monitor0->mostrarImagem();
 $monitor0->desligar();
 
+print "Cor do monitor 0: " . $monitor0 -> cor . "\n"; //como acessar os atributos fora da classe. Diferente do THIS
+
 //criei mais um objeto
 $monitor1 = new Monitor(); 
 //defini os atributos do objeto
