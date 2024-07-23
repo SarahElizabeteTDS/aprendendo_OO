@@ -10,17 +10,17 @@ class Monitor
     //metodos
     function ligar()
     {
-        print "Monitor ligado";
+        print "Monitor ligado\n";
     }
 
     function desligar()
     {
-        print "Monitor desligado";
+        print "Monitor desligado\n";
     }
 
     function mostrarImagem()
     {
-        print "Monitor mostrando imagem";
+        print "Monitor mostrando imagem\n";
     }
 }
 
